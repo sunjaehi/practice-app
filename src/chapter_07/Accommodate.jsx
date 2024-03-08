@@ -17,7 +17,7 @@ function Accommodate(props) {
         console.log(`Current count value: ${count}`);
     }, [count]);
     return (
-        <div style={{padding: 16}}>
+        <div style={{padding: 20}}>
             <p>{`총 ${count}명 수용했습니다.`}</p>
             <button onClick={increaseCount} disabled={isFull}>
                 입장
